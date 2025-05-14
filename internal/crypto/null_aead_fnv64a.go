@@ -5,7 +5,7 @@ import (
 	"errors"
 	"hash/fnv"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 type nullAEADFNV64a struct{}

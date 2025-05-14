@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	quic "github.com/haterb4/mp-quic"
+	quic "github.com/s-anzie/mp-quic"
 
-	"github.com/haterb4/mp-quic/h2quic"
-	"github.com/haterb4/mp-quic/internal/utils"
+	"github.com/s-anzie/mp-quic/h2quic"
+	"github.com/s-anzie/mp-quic/internal/utils"
 )
 
 func main() {

@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/bifurcation/mint"
-	"github.com/haterb4/mp-quic/internal/crypto"
-	"github.com/haterb4/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/crypto"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 func tlsToMintConfig(tlsConf *tls.Config, pers protocol.Perspective) (*mint.Config, error) {

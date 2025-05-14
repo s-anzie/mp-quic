@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	_ "github.com/haterb4/mp-quic/integrationtests/tools/testlog"
-	"github.com/haterb4/mp-quic/integrationtests/tools/testserver"
+	_ "github.com/s-anzie/mp-quic/integrationtests/tools/testlog"
+	"github.com/s-anzie/mp-quic/integrationtests/tools/testserver"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

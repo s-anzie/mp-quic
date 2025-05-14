@@ -11,7 +11,7 @@ import (
 	"log"
 	"math/big"
 
-	quic "github.com/haterb4/mp-quic"
+	quic "github.com/s-anzie/mp-quic"
 )
 
 const addr = "localhost:4242"

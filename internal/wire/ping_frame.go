@@ -3,7 +3,7 @@ package wire
 import (
 	"bytes"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 // A PingFrame is a ping frame

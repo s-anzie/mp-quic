@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 type aeadAESGCM struct {

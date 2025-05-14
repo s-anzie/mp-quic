@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/wire"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/wire"
 )
 
 var errInvalidPacketNumber = errors.New("ReceivedPacketHandler: Invalid packet number")

@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	quic "github.com/haterb4/mp-quic"
-	"github.com/haterb4/mp-quic/internal/utils"
+	quic "github.com/s-anzie/mp-quic"
+	"github.com/s-anzie/mp-quic/internal/utils"
 )
 
 const (

@@ -11,9 +11,9 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 type mockStream struct {

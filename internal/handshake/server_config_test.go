@@ -3,7 +3,7 @@ package handshake
 import (
 	"bytes"
 
-	"github.com/haterb4/mp-quic/internal/crypto"
+	"github.com/s-anzie/mp-quic/internal/crypto"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

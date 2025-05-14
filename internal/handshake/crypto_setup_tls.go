@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/bifurcation/mint"
-	"github.com/haterb4/mp-quic/internal/crypto"
-	"github.com/haterb4/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/crypto"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 // KeyDerivationFunction is used for key derivation

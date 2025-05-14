@@ -8,12 +8,12 @@ import (
 	"math/rand"
 	"net"
 
-	quic "github.com/haterb4/mp-quic"
-	_ "github.com/haterb4/mp-quic/integrationtests/tools/testlog"
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/testdata"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	quic "github.com/s-anzie/mp-quic"
+	_ "github.com/s-anzie/mp-quic/integrationtests/tools/testlog"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/testdata"
 )
 
 func init() {

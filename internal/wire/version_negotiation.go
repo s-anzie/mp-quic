@@ -3,8 +3,8 @@ package wire
 import (
 	"bytes"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/utils"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/utils"
 )
 
 // ComposeVersionNegotiation composes a Version Negotiation Packet

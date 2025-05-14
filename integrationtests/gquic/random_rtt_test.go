@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/haterb4/mp-quic/integrationtests/tools/proxy"
-	"github.com/haterb4/mp-quic/integrationtests/tools/testserver"
-	"github.com/haterb4/mp-quic/internal/protocol"
 	_ "github.com/lucas-clemente/quic-clients" // download clients
+	quicproxy "github.com/s-anzie/mp-quic/integrationtests/tools/proxy"
+	"github.com/s-anzie/mp-quic/integrationtests/tools/testserver"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

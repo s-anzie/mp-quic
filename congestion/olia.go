@@ -1,8 +1,8 @@
 package congestion
 
 import (
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/utils"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/utils"
 )
 
 const scale uint = 10

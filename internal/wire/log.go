@@ -1,8 +1,8 @@
 package wire
 
 import (
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/utils"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/utils"
 )
 
 // LogFrame logs a frame, either sent or received

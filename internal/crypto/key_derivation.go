@@ -2,7 +2,7 @@ package crypto
 
 import (
 	"github.com/bifurcation/mint"
-	"github.com/haterb4/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 const (
@@ -44,7 +44,9 @@ func computeKeyAndIV(mc MintController, label string) (key, iv []byte, err error
 	if err != nil {
 		return nil, nil, err
 	}
-	key = mint.HkdfExpandLabel(cs.Hash, secret, "key", nil, cs.KeyLen)
-	iv = mint.HkdfExpandLabel(cs.Hash, secret, "iv", nil, cs.IvLen)
+	keyLen := cs.KeyLengths["key"]
+	ivLen := cs.KeyLengths["iv"]
+	key = mint.HkdfExpandLabel(cs.Hash, secret, "key", nil, keyLen)
+	iv = mint.HkdfExpandLabel(cs.Hash, secret, "iv", nil, ivLen)
 	return key, iv, nil
 }

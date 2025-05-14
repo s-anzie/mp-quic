@@ -8,9 +8,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/wire"
-	"github.com/haterb4/mp-quic/qerr"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/wire"
+	"github.com/s-anzie/mp-quic/qerr"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

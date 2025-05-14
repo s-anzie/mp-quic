@@ -3,7 +3,7 @@ package quic
 import (
 	"sync"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 var bufferPool sync.Pool

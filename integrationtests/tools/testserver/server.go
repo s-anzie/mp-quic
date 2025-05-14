@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"strconv"
 
-	quic "github.com/haterb4/mp-quic"
-	"github.com/haterb4/mp-quic/h2quic"
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/testdata"
+	quic "github.com/s-anzie/mp-quic"
+	"github.com/s-anzie/mp-quic/h2quic"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/testdata"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

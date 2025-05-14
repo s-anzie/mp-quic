@@ -3,7 +3,7 @@ package congestion
 import (
 	"time"
 
-	"github.com/haterb4/mp-quic/internal/utils"
+	"github.com/s-anzie/mp-quic/internal/utils"
 )
 
 const (

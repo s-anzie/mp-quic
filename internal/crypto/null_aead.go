@@ -1,6 +1,6 @@
 package crypto
 
-import "github.com/haterb4/mp-quic/internal/protocol"
+import "github.com/s-anzie/mp-quic/internal/protocol"
 
 // NewNullAEAD creates a NullAEAD
 func NewNullAEAD(p protocol.Perspective, v protocol.VersionNumber) AEAD {

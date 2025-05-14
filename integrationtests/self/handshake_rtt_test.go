@@ -6,15 +6,15 @@ import (
 	"net"
 	"time"
 
-	quic "github.com/haterb4/mp-quic"
-	"github.com/haterb4/mp-quic/integrationtests/tools/proxy"
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/utils"
-	"github.com/haterb4/mp-quic/qerr"
+	quic "github.com/s-anzie/mp-quic"
+	quicproxy "github.com/s-anzie/mp-quic/integrationtests/tools/proxy"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/utils"
+	"github.com/s-anzie/mp-quic/qerr"
 
-	"github.com/haterb4/mp-quic/internal/testdata"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/s-anzie/mp-quic/internal/testdata"
 )
 
 var _ = Describe("Handshake RTT tests", func() {

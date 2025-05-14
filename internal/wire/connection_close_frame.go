@@ -6,9 +6,9 @@ import (
 	"io"
 	"math"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/utils"
-	"github.com/haterb4/mp-quic/qerr"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/utils"
+	"github.com/s-anzie/mp-quic/qerr"
 )
 
 // A ConnectionCloseFrame in QUIC

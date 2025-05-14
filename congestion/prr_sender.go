@@ -3,8 +3,8 @@ package congestion
 import (
 	"time"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/utils"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/utils"
 )
 
 // PrrSender implements the Proportional Rate Reduction (PRR) per RFC 6937

@@ -1,6 +1,6 @@
 package utils
 
-import "github.com/haterb4/mp-quic/internal/protocol"
+import "github.com/s-anzie/mp-quic/internal/protocol"
 
 // ByteInterval is an interval from one ByteCount to the other
 // +gen linkedlist

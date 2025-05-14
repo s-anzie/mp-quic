@@ -6,8 +6,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/haterb4/mp-quic/internal/handshake"
-	"github.com/haterb4/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/handshake"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 // The StreamID is the ID of a QUIC stream.
@@ -76,7 +76,7 @@ type Session interface {
 	// It always picks the smallest possible stream ID.
 	OpenStreamSync() (Stream, error)
 	// UpdateStreamId updates the stream id of the session
-	// Added by haterb4
+	// Added by s-anzie
 	GetAckedFrames() []ackStruct
 	// LocalAddr returns the local address.
 	LocalAddr() net.Addr

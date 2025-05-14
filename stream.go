@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/haterb4/mp-quic/internal/flowcontrol"
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/utils"
-	"github.com/haterb4/mp-quic/internal/wire"
+	"github.com/s-anzie/mp-quic/internal/flowcontrol"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/utils"
+	"github.com/s-anzie/mp-quic/internal/wire"
 )
 
 // A Stream assembles the data from StreamFrames and provides a super-convenient Read-Interface
@@ -571,14 +571,14 @@ func (s *stream) Setuint64(writeOffset uint64) {
 	s.writeOffset = protocol.ByteCount(writeOffset)
 }
 
-// Updated by haterb4
+// Updated by s-anzie
 func (s *stream) IncrementReceiveWindow(increment uint64) {
 	s.flowControlManager.IncrementReceiveWindow(s.streamID, protocol.ByteCount(increment))
 	s.signalWrite() // Notify that the window size has been increased
 	s.signalRead()
 }
 
-// added by haterb4
+// added by s-anzie
 func (s *stream) onDataCallback() {
 	// Calculate how much data has been received and how much window space is left
 	receivedData := s.readOffset

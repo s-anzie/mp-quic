@@ -7,9 +7,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/utils"
-	"github.com/haterb4/mp-quic/qerr"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/utils"
+	"github.com/s-anzie/mp-quic/qerr"
 )
 
 // A HandshakeMessage is a handshake message

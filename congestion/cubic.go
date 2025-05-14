@@ -4,8 +4,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/utils"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/utils"
 )
 
 // This cubic implementation is based on the one found in Chromiums's QUIC

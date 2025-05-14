@@ -14,11 +14,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/haterb4/mp-quic/integrationtests/tools/testserver"
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/utils"
+	"github.com/s-anzie/mp-quic/integrationtests/tools/testserver"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/utils"
 
-	_ "github.com/haterb4/mp-quic/integrationtests/tools/testlog"
+	_ "github.com/s-anzie/mp-quic/integrationtests/tools/testlog"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

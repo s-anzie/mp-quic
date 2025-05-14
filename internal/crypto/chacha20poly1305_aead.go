@@ -10,7 +10,7 @@ import (
 
 	"github.com/aead/chacha20"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 type aeadChacha20Poly1305 struct {

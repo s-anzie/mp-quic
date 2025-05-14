@@ -3,7 +3,7 @@ package qerr
 import (
 	"fmt"
 
-	"github.com/haterb4/mp-quic/internal/utils"
+	"github.com/s-anzie/mp-quic/internal/utils"
 )
 
 // ErrorCode can be used as a normal error without reason.

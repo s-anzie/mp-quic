@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/haterb4/mp-quic/internal/testdata"
-	"github.com/haterb4/mp-quic/qerr"
+	"github.com/s-anzie/mp-quic/internal/testdata"
+	"github.com/s-anzie/mp-quic/qerr"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

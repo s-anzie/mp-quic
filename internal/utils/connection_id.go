@@ -3,7 +3,7 @@ package utils
 import (
 	"encoding/binary"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 // GenerateConnectionID generates a connection ID using cryptographic not random, fix connectionID for all session

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"io"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/utils"
-	"github.com/haterb4/mp-quic/qerr"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/utils"
+	"github.com/s-anzie/mp-quic/qerr"
 )
 
 var (
@@ -166,7 +166,7 @@ func ParsePublicHeader(b *bytes.Reader, packetSentBy protocol.Perspective, versi
 	}
 
 	// TODO: activate this check once Chrome sends the correct value
-	// see https://github.com/haterb4/mp-quic/issues/232
+	// see https://github.com/s-anzie/mp-quic/issues/232
 	// if publicFlagByte&0x04 > 0 {
 	// 	return nil, errors.New("diversification nonces should only be sent by servers")
 	// }
@@ -208,7 +208,7 @@ func ParsePublicHeader(b *bytes.Reader, packetSentBy protocol.Perspective, versi
 	if packetSentBy == protocol.PerspectiveServer && publicFlagByte&0x04 > 0 {
 		// TODO: remove the if once the Google servers send the correct value
 		// assume that a packet doesn't contain a diversification nonce if the version flag or the reset flag is set, no matter what the public flag says
-		// see https://github.com/haterb4/mp-quic/issues/232
+		// see https://github.com/s-anzie/mp-quic/issues/232
 		if !header.VersionFlag && !header.ResetFlag {
 			header.DiversificationNonce = make([]byte, 32)
 			if _, err := io.ReadFull(b, header.DiversificationNonce); err != nil {

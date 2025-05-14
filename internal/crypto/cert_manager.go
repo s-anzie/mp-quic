@@ -7,7 +7,7 @@ import (
 	"hash/fnv"
 	"time"
 
-	"github.com/haterb4/mp-quic/qerr"
+	"github.com/s-anzie/mp-quic/qerr"
 )
 
 // CertManager manages the certificates sent by the server

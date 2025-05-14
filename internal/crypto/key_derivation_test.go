@@ -5,9 +5,9 @@ import (
 	"errors"
 
 	"github.com/bifurcation/mint"
-	"github.com/haterb4/mp-quic/internal/protocol"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 type mockMintController struct {
@@ -21,9 +21,8 @@ func (c *mockMintController) Handshake() mint.Alert { panic("not implemented") }
 
 func (c *mockMintController) GetCipherSuite() mint.CipherSuiteParams {
 	return mint.CipherSuiteParams{
-		Hash:   c.hash,
-		KeyLen: 32,
-		IvLen:  12,
+		Hash:       c.hash,
+		KeyLengths: map[string]int{"key": 32, "iv": 12},
 	}
 }
 

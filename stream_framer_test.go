@@ -3,11 +3,11 @@ package quic
 import (
 	"bytes"
 
-	"github.com/haterb4/mp-quic/internal/mocks/mocks_fc"
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/wire"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/s-anzie/mp-quic/internal/mocks/mocks_fc"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/wire"
 )
 
 var _ = Describe("Stream Framer", func() {

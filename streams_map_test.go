@@ -3,11 +3,11 @@ package quic
 import (
 	"errors"
 
-	"github.com/haterb4/mp-quic/internal/mocks"
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/qerr"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/s-anzie/mp-quic/internal/mocks"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/qerr"
 )
 
 var _ = Describe("Streams Map", func() {

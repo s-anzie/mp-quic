@@ -3,8 +3,8 @@ package handshake
 import (
 	"net"
 
-	"github.com/haterb4/mp-quic/internal/crypto"
-	"github.com/haterb4/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/crypto"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 // Sealer seals a packet

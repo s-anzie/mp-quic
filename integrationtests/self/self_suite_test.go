@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	_ "github.com/haterb4/mp-quic/integrationtests/tools/testlog"
+	_ "github.com/s-anzie/mp-quic/integrationtests/tools/testlog"
 
 	"testing"
 )

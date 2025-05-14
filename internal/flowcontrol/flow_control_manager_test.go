@@ -3,12 +3,12 @@ package flowcontrol
 import (
 	"time"
 
-	"github.com/haterb4/mp-quic/congestion"
-	"github.com/haterb4/mp-quic/internal/mocks"
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/qerr"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/s-anzie/mp-quic/congestion"
+	"github.com/s-anzie/mp-quic/internal/mocks"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/qerr"
 )
 
 var _ = Describe("Flow Control Manager", func() {

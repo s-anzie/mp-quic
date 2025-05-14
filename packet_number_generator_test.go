@@ -3,9 +3,9 @@ package quic
 import (
 	"math"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 var _ = Describe("Packet Number Generator", func() {

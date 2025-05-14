@@ -15,10 +15,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/haterb4/mp-quic/internal/crypto"
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/internal/utils"
-	"github.com/haterb4/mp-quic/qerr"
+	"github.com/s-anzie/mp-quic/internal/crypto"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/utils"
+	"github.com/s-anzie/mp-quic/qerr"
 )
 
 type cryptoSetupClient struct {

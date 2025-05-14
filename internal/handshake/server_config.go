@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"crypto/rand"
 
-	"github.com/haterb4/mp-quic/internal/crypto"
+	"github.com/s-anzie/mp-quic/internal/crypto"
 )
 
 // ServerConfig is a server config

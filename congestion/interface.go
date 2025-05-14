@@ -3,7 +3,7 @@ package congestion
 import (
 	"time"
 
-	"github.com/haterb4/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 // A SendAlgorithm performs congestion control and calculates the congestion window

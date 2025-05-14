@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/haterb4/mp-quic/internal/handshake"
-	"github.com/haterb4/mp-quic/internal/protocol"
-	"github.com/haterb4/mp-quic/qerr"
+	"github.com/s-anzie/mp-quic/internal/handshake"
+	"github.com/s-anzie/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/qerr"
 )
 
 type streamsMap struct {
@@ -333,7 +333,7 @@ func (m *streamsMap) CloseWithError(err error) {
 }
 
 // Adding a function to update the stream id
-// Added by haterb4
+// Added by s-anzie
 func (m *streamsMap) UpdateStreamID(oldID protocol.StreamID, newID protocol.StreamID) error {
 	m.mutex.Lock()
 	defer m.mutex.Unlock()

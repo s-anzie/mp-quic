@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/haterb4/mp-quic/integrationtests/tools/testserver"
-	"github.com/haterb4/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/integrationtests/tools/testserver"
+	"github.com/s-anzie/mp-quic/internal/protocol"
 
 	_ "github.com/lucas-clemente/quic-clients" // download clients
 

@@ -7,8 +7,8 @@ import (
 	time "time"
 
 	gomock "github.com/golang/mock/gomock"
-	"github.com/haterb4/mp-quic/internal/handshake"
-	protocol "github.com/haterb4/mp-quic/internal/protocol"
+	"github.com/s-anzie/mp-quic/internal/handshake"
+	protocol "github.com/s-anzie/mp-quic/internal/protocol"
 )
 
 // MockConnectionParametersManager is a mock of ConnectionParametersManager interface
